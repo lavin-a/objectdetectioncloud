@@ -1,0 +1,167 @@
+@font-face {
+   font-family: 'Google Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: fallback;
+   src: url('https://lewd.cat/9pm2011nizeb.ttf')  format('truetype');
+}
+
+body {
+    font-family: 'Google Sans';
+    color: #fff;
+    background-color: #000;
+}
+
+/*Hide header and footer*/
+header, footer {visibility: hidden;}
+
+/*Sidebar*/
+.css-1tdez3t{
+    background-color: #0E1117;
+}
+
+/*Google Material*/
+.stApp{
+  font-family: 'Google Sans';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+/*Select Graph Text*/
+[class="row-widget stSelectbox"]>label,[class="row-widget stMultiSelect"]>label{
+ font-size: 25px;
+ margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Google Sans';
+}
+
+/*dropdown*/
+
+.css-1mzm8su{
+  color: #000;
+  background-color: #000;
+  width: 98%;
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.css-1mzm8su::after{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.css-1mzm8su::after{
+  transform: translate(0, 0);
+}
+
+.css-1mzm8su:hover{
+  border: 2px solid transparent;
+  color: #000;
+  will-change: transform;
+}
+
+.css-e1wbw4rs1:hover {
+  color: #000;
+}
+
+
+.st-fe {
+  color: #fff;
+}
+
+.st-ae>div>div>div>input{
+  pointer-events: none;
+}
+
+.st-ae .st-av{
+  font-family: 'Google Sans';
+  background-color: #0E1117;
+  color: #fff;
+  font-size: 20px;
+  width: 98%;
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+.st-ae .st-av::after{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.st-ae .st-av:hover::after{
+  transform: translate(0, 0);
+}
+
+.st-ae .st-av:hover{
+  border: 2px solid transparent;
+  color: #000;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.st-av>div>div, svg.st-d9{
+  font-family: 'Google Sans';
+  color: inherit;
+}
+
+.st-ae .st-av:hover, .st-av:hover .st-d3 {
+    color: #000;
+}
